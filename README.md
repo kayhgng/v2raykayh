@@ -11,7 +11,6 @@ https://raw.githubusercontent.com/kayhgng/v2raykayh/main/v2raykayh
 
 ![ANDROID](https://img.shields.io/badge/Android-34A853.svg?style=for-the-badge&logo=Android&logoColor=white) 
 
-![IOS](https://img.shields.io/badge/iOS-000000.svg?style=for-the-badge&logo=iOS&logoColor=white)
 
 ![IOS](https://img.shields.io/badge/iOS-000000.svg?style=for-the-badge&logo=iOS&logoColor=white)
 
