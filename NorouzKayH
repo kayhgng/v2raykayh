@@ -1,0 +1,3953 @@
+//profile-title: base64:VmlzaXQgZ2l0aHViLmNvbS9rYXloZ25n
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=13
+//support-url: https://github.com/kayhgng
+//profile-web-page-url: https://github.com/kayhgng
+
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode:\/\/success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "KayH GNG جدید 27",
+                " 1 KayH GNG همه اپراتور ها",
+                "2 همه اپراتور ها KayH GNG",
+                "KayH GNG همه اپراتور ها 3",
+                "اپراتور های دارای ipv6 KayH GNG",
+                "اپراتور های دارای ipv6 KayH GNG 2",
+                "KayH GNG 5 همراه اول",
+                "KayH GNG 6 همراه اول",
+                "KayH GNG 7 همراه اول",
+                "KayH GNG 8 همراه اول",
+                "KayH GNG 9 همراه اول",
+                "KayH GNG 10 همراه اول",
+                "KayH GNG 11 همراه اول",
+                "KayH GNG 12 همراه اول",
+                "KayH GNG 13 همراه اول",
+                "KayH GNG 14 همراه اول",
+                "KayH GNG 15 همراه اول",
+                "KayH GNG 16 همراه اول",
+                "KayH GNG 17 همراه اول",
+                "KayH GNG 18 همراه اول",
+                "KayH GNG 19 همراه اول",
+                "KayH GNG 20 همراه اول",
+                "KayH GNG 21 همراه اول",
+                "KayH GNG 22 همراه اول",
+                "KayH GNG 23 همراه اول",
+                "KayH GNG 24 همراه اول",
+                "KayH GNG 25 همراه اول",
+                "KayH GNG 26 همراه اول",
+                "KayH GNG 27 همراه اول",
+                "KayH GNG 28 همراه اول",
+                "KayH GNG 29 همراه اول",
+                "KayH GNG 30 همراه اول",
+                "KayH GNG 31 همراه اول",
+                "KayH GNG 32 همراه اول",
+                "KayH GNG 33 همراه اول",
+                "KayH GNG 34 همراه اول",
+                "KayH GNG 35 همراه اول",
+                "KayH GNG 36 همراه اول",
+                "KayH GNG 37 همراه اول",
+                "KayH GNG 38 همراه اول",
+                "KayH GNG 39 همراه اول",
+                "KayH GNG 40 همراه اول",
+                "KayH GNG 41 همراه اول",
+                "KayH GNG 42 همراه اول",
+                "KayH GNG 43 همراه اول",
+                "KayH GNG 44 همراه اول",
+                "KayH GNG 45 همراه اول",
+                "KayH GNG 46 همراه اول",
+                "KayH GNG 47 همراه اول",
+                "KayH GNG 48 همراه اول",
+                "KayH GNG 49 همراه اول",
+                "KayH GNG 50 همراه اول",
+                "KayH GNG 1 ایرانسل",
+                "KayH GNG 2 ایرانسل",
+                "KayH GNG 3 ایرانسل",
+                "KayH GNG 4 ایرانسل",
+                "KayH GNG 5 ایرانسل",
+                "KayH GNG 6 ایرانسل",
+                "KayH GNG 7 ایرانسل",
+                "KayH GNG 8 ایرانسل",
+                "KayH GNG 9 ایرانسل",
+                "KayH GNG 10 ایرانسل",
+                "KayH GNG 11 ایرانسل",
+                "KayH GNG 12 ایرانسل",
+                "KayH GNG 13 ایرانسل",
+                "KayH GNG 14 ایرانسل",
+                "KayH GNG 15 ایرانسل",
+                "KayH GNG 16 ایرانسل",
+                "KayH GNG 17 ایرانسل",
+                "KayH GNG 18 ایرانسل",
+                "KayH GNG 19 ایرانسل",
+                "KayH GNG 20 ایرانسل",
+                "KayH GNG 1 رایتل",
+                "KayH GNG 2 رایتل",
+                "KayH GNG 3 رایتل",
+                "KayH GNG 4 رایتل",
+                "KayH GNG 5 رایتل",
+                "KayH GNG 6 رایتل",
+                "KayH GNG 7 رایتل",
+                "KayH GNG 8 رایتل",
+                "KayH GNG 9 رایتل",
+                "KayH GNG 1مخابرات",
+                "KayH GNG 2مخابرات",
+                "KayH GNG 3مخابرات",
+                "KayH GNG همه اپراتور ها 4",
+                "KayH GNG جدید 1",
+                "KayH GNG جدید 2",
+                "KayH GNG جدید 3",
+                "KayH GNG جدید 4",
+                "KayH GNG جدید 5",
+                "KayH GNG جدید 6",
+                "KayH GNG جدید 7",
+                "KayH GNG جدید 8",
+                "KayH GNG جدید 9",
+                "KayH GNG جدید 10",
+                "KayH GNG جدید 11",
+                "KayH GNG جدید 12",
+                "KayH GNG جدید 13",
+                "KayH GNG جدید 14",
+                "KayH GNG جدید 15",
+                "KayH GNG جدید 16",
+                "KayH GNG جدید 17",
+                "KayH GNG جدید 18",
+                "KayH GNG جدید 19",
+                "KayH GNG جدید 20",
+                "KayH GNG جدید 21",
+                "KayH GNG جدید 22",
+                "KayH GNG جدید 23",
+                "KayH GNG جدید 24",
+                "KayH GNG جدید 25",
+                "KayH GNG جدید 26",
+                "KayH GNG جدید 28",
+                "KayH GNG جدید 29",
+                "KayH GNG جدید 30"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "KayH GNG جدید 27",
+                " 1 KayH GNG همه اپراتور ها",
+                "2 همه اپراتور ها KayH GNG",
+                "KayH GNG همه اپراتور ها 3",
+                "اپراتور های دارای ipv6 KayH GNG",
+                "اپراتور های دارای ipv6 KayH GNG 2",
+                "KayH GNG 5 همراه اول",
+                "KayH GNG 6 همراه اول",
+                "KayH GNG 7 همراه اول",
+                "KayH GNG 8 همراه اول",
+                "KayH GNG 9 همراه اول",
+                "KayH GNG 10 همراه اول",
+                "KayH GNG 11 همراه اول",
+                "KayH GNG 12 همراه اول",
+                "KayH GNG 13 همراه اول",
+                "KayH GNG 14 همراه اول",
+                "KayH GNG 15 همراه اول",
+                "KayH GNG 16 همراه اول",
+                "KayH GNG 17 همراه اول",
+                "KayH GNG 18 همراه اول",
+                "KayH GNG 19 همراه اول",
+                "KayH GNG 20 همراه اول",
+                "KayH GNG 21 همراه اول",
+                "KayH GNG 22 همراه اول",
+                "KayH GNG 23 همراه اول",
+                "KayH GNG 24 همراه اول",
+                "KayH GNG 25 همراه اول",
+                "KayH GNG 26 همراه اول",
+                "KayH GNG 27 همراه اول",
+                "KayH GNG 28 همراه اول",
+                "KayH GNG 29 همراه اول",
+                "KayH GNG 30 همراه اول",
+                "KayH GNG 31 همراه اول",
+                "KayH GNG 32 همراه اول",
+                "KayH GNG 33 همراه اول",
+                "KayH GNG 34 همراه اول",
+                "KayH GNG 35 همراه اول",
+                "KayH GNG 36 همراه اول",
+                "KayH GNG 37 همراه اول",
+                "KayH GNG 38 همراه اول",
+                "KayH GNG 39 همراه اول",
+                "KayH GNG 40 همراه اول",
+                "KayH GNG 41 همراه اول",
+                "KayH GNG 42 همراه اول",
+                "KayH GNG 43 همراه اول",
+                "KayH GNG 44 همراه اول",
+                "KayH GNG 45 همراه اول",
+                "KayH GNG 46 همراه اول",
+                "KayH GNG 47 همراه اول",
+                "KayH GNG 48 همراه اول",
+                "KayH GNG 49 همراه اول",
+                "KayH GNG 50 همراه اول",
+                "KayH GNG 1 ایرانسل",
+                "KayH GNG 2 ایرانسل",
+                "KayH GNG 3 ایرانسل",
+                "KayH GNG 4 ایرانسل",
+                "KayH GNG 5 ایرانسل",
+                "KayH GNG 6 ایرانسل",
+                "KayH GNG 7 ایرانسل",
+                "KayH GNG 8 ایرانسل",
+                "KayH GNG 9 ایرانسل",
+                "KayH GNG 10 ایرانسل",
+                "KayH GNG 11 ایرانسل",
+                "KayH GNG 12 ایرانسل",
+                "KayH GNG 13 ایرانسل",
+                "KayH GNG 14 ایرانسل",
+                "KayH GNG 15 ایرانسل",
+                "KayH GNG 16 ایرانسل",
+                "KayH GNG 17 ایرانسل",
+                "KayH GNG 18 ایرانسل",
+                "KayH GNG 19 ایرانسل",
+                "KayH GNG 20 ایرانسل",
+                "KayH GNG 1 رایتل",
+                "KayH GNG 2 رایتل",
+                "KayH GNG 3 رایتل",
+                "KayH GNG 4 رایتل",
+                "KayH GNG 5 رایتل",
+                "KayH GNG 6 رایتل",
+                "KayH GNG 7 رایتل",
+                "KayH GNG 8 رایتل",
+                "KayH GNG 9 رایتل",
+                "KayH GNG 1مخابرات",
+                "KayH GNG 2مخابرات",
+                "KayH GNG 3مخابرات",
+                "KayH GNG همه اپراتور ها 4",
+                "KayH GNG جدید 1",
+                "KayH GNG جدید 2",
+                "KayH GNG جدید 3",
+                "KayH GNG جدید 4",
+                "KayH GNG جدید 5",
+                "KayH GNG جدید 6",
+                "KayH GNG جدید 7",
+                "KayH GNG جدید 8",
+                "KayH GNG جدید 9",
+                "KayH GNG جدید 10",
+                "KayH GNG جدید 11",
+                "KayH GNG جدید 12",
+                "KayH GNG جدید 13",
+                "KayH GNG جدید 14",
+                "KayH GNG جدید 15",
+                "KayH GNG جدید 16",
+                "KayH GNG جدید 17",
+                "KayH GNG جدید 18",
+                "KayH GNG جدید 19",
+                "KayH GNG جدید 20",
+                "KayH GNG جدید 21",
+                "KayH GNG جدید 22",
+                "KayH GNG جدید 23",
+                "KayH GNG جدید 24",
+                "KayH GNG جدید 25",
+                "KayH GNG جدید 26",
+                "KayH GNG جدید 28",
+                "KayH GNG جدید 29",
+                "KayH GNG جدید 30"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "3m",
+            "tolerance": 50
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "tag": "KayH GNG جدید 27",
+            "type": "vless",
+            "server": "104.20.1.80",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": " 1 KayH GNG همه اپراتور ها",
+            "type": "vless",
+            "server": "vpn.kayhgng.xyz",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpN.KAYHgnG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/uedQtC_BNyMgrorZ",
+                "headers": {
+                    "Host": "vpN.KAYHgnG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "2 همه اپراتور ها KayH GNG",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VPn.KaYhgNG.XYZ",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-ZdVXnUMT_GkHnsB",
+                "headers": {
+                    "Host": "VPn.KaYhgNG.XYZ"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG همه اپراتور ها 3",
+            "type": "vless",
+            "server": "104.21.20.246",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "اپراتور های دارای ipv6 KayH GNG",
+            "type": "vless",
+            "server": "[2606:4700:3037::6815:14f6]",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.kAYHgnG.XyZ",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/42zD6Mo0Fkn_wnGn",
+                "headers": {
+                    "Host": "vPn.kAYHgnG.XyZ"
+                }
+            }
+        },
+        {
+            "tag": "اپراتور های دارای ipv6 KayH GNG 2",
+            "type": "vless",
+            "server": "[2606:4700:3035::ac43:c323]",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpN.KaYHGNg.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/9phu54--Rygo_O8_",
+                "headers": {
+                    "Host": "vpN.KaYHGNg.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 5 همراه اول",
+            "type": "vless",
+            "server": "172.66.213.38",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 6 همراه اول",
+            "type": "vless",
+            "server": "104.19.250.20",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 7 همراه اول",
+            "type": "vless",
+            "server": "104.22.75.105",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 8 همراه اول",
+            "type": "vless",
+            "server": "104.16.219.230",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 9 همراه اول",
+            "type": "vless",
+            "server": "162.159.1.94",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 10 همراه اول",
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 11 همراه اول",
+            "type": "vless",
+            "server": "104.17.42.10",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 12 همراه اول",
+            "type": "vless",
+            "server": "104.22.51.45",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 13 همراه اول",
+            "type": "vless",
+            "server": "162.159.32.35",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 14 همراه اول",
+            "type": "vless",
+            "server": "104.23.123.239",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 15 همراه اول",
+            "type": "vless",
+            "server": "104.27.196.92",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 16 همراه اول",
+            "type": "vless",
+            "server": "104.18.72.191",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 17 همراه اول",
+            "type": "vless",
+            "server": "104.20.2.1",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 18 همراه اول",
+            "type": "vless",
+            "server": "104.16.29.8",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 19 همراه اول",
+            "type": "vless",
+            "server": "172.65.188.62",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 20 همراه اول",
+            "type": "vless",
+            "server": "172.67.229.179",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 21 همراه اول",
+            "type": "vless",
+            "server": "159.246.55.180",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 22 همراه اول",
+            "type": "vless",
+            "server": "104.24.255.191",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 23 همراه اول",
+            "type": "vless",
+            "server": "104.16.119.47",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 24 همراه اول",
+            "type": "vless",
+            "server": "104.17.225.199",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 25 همراه اول",
+            "type": "vless",
+            "server": "104.20.149.108",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 26 همراه اول",
+            "type": "vless",
+            "server": "104.17.232.114",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 27 همراه اول",
+            "type": "vless",
+            "server": "104.17.20.55",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 28 همراه اول",
+            "type": "vless",
+            "server": "104.21.231.123",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 29 همراه اول",
+            "type": "vless",
+            "server": "104.19.180.169",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 30 همراه اول",
+            "type": "vless",
+            "server": "104.27.38.85",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 31 همراه اول",
+            "type": "vless",
+            "server": "104.27.115.85",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 32 همراه اول",
+            "type": "vless",
+            "server": "172.65.229.187",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 33 همراه اول",
+            "type": "vless",
+            "server": "104.21.33.129",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 34 همراه اول",
+            "type": "vless",
+            "server": "172.64.150.2",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 35 همراه اول",
+            "type": "vless",
+            "server": "104.27.122.56",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 36 همراه اول",
+            "type": "vless",
+            "server": "104.16.8.3",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 37 همراه اول",
+            "type": "vless",
+            "server": "104.24.1.69",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 38 همراه اول",
+            "type": "vless",
+            "server": "104.22.51.241",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 39 همراه اول",
+            "type": "vless",
+            "server": "104.25.225.41",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 40 همراه اول",
+            "type": "vless",
+            "server": "172.68.62.168",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 41 همراه اول",
+            "type": "vless",
+            "server": "104.27.5.173",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 42 همراه اول",
+            "type": "vless",
+            "server": "104.24.161.123",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 43 همراه اول",
+            "type": "vless",
+            "server": "104.20.251.248",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 44 همراه اول",
+            "type": "vless",
+            "server": "172.65.92.30",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 45 همراه اول",
+            "type": "vless",
+            "server": "172.65.137.125",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 46 همراه اول",
+            "type": "vless",
+            "server": "104.17.229.103",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 47 همراه اول",
+            "type": "vless",
+            "server": "104.24.84.148",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 48 همراه اول",
+            "type": "vless",
+            "server": "104.20.21.111",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 49 همراه اول",
+            "type": "vless",
+            "server": "104.27.1.133",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 50 همراه اول",
+            "type": "vless",
+            "server": "104.21.55.49",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 1 ایرانسل",
+            "type": "vless",
+            "server": "199.59.243.225",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 2 ایرانسل",
+            "type": "vless",
+            "server": "172.67.186.42",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 3 ایرانسل",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 4 ایرانسل",
+            "type": "vless",
+            "server": "203.32.121.53",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 5 ایرانسل",
+            "type": "vless",
+            "server": "104.19.54.50",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 6 ایرانسل",
+            "type": "vless",
+            "server": "104.27.62.243",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 7 ایرانسل",
+            "type": "vless",
+            "server": "172.65.13.222",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 8 ایرانسل",
+            "type": "vless",
+            "server": "104.22.13.192",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 9 ایرانسل",
+            "type": "vless",
+            "server": "104.20.224.95",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 10 ایرانسل",
+            "type": "vless",
+            "server": "172.65.223.246",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 11 ایرانسل",
+            "type": "vless",
+            "server": "172.65.130.220",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 12 ایرانسل",
+            "type": "vless",
+            "server": "172.65.103.23",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 13 ایرانسل",
+            "type": "vless",
+            "server": "104.19.255.51",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 14 ایرانسل",
+            "type": "vless",
+            "server": "104.24.185.137",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 15 ایرانسل",
+            "type": "vless",
+            "server": "45.95.241.156",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 16 ایرانسل",
+            "type": "vless",
+            "server": "45.85.119.87",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 17 ایرانسل",
+            "type": "vless",
+            "server": "191.101.251.190",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 18 ایرانسل",
+            "type": "vless",
+            "server": "45.95.241.94",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 19 ایرانسل",
+            "type": "vless",
+            "server": "45.95.241.150",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 20 ایرانسل",
+            "type": "vless",
+            "server": "45.85.119.207",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 1 رایتل",
+            "type": "vless",
+            "server": "162.251.82.187",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 2 رایتل",
+            "type": "vless",
+            "server": "162.159.250.246",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 3 رایتل",
+            "type": "vless",
+            "server": "104.18.220.84",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 4 رایتل",
+            "type": "vless",
+            "server": "104.25.134.44",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 5 رایتل",
+            "type": "vless",
+            "server": "172.65.12.104",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 6 رایتل",
+            "type": "vless",
+            "server": "162.159.25.11",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 7 رایتل",
+            "type": "vless",
+            "server": "104.21.24.116",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 8 رایتل",
+            "type": "vless",
+            "server": "104.18.53.172",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 9 رایتل",
+            "type": "vless",
+            "server": "104.20.19.160",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 1مخابرات",
+            "type": "vless",
+            "server": "104.16.4.103",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 2مخابرات",
+            "type": "vless",
+            "server": "172.66.47.74",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG 3مخابرات",
+            "type": "vless",
+            "server": "104.20.156.248",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG همه اپراتور ها 4",
+            "type": "vless",
+            "server": "172.67.195.35",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VPn.Kayhgng.XYZ",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/miM_UJKdid7ejL9O",
+                "headers": {
+                    "Host": "VPn.Kayhgng.XYZ"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 1",
+            "type": "vless",
+            "server": "104.25.5.175",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 2",
+            "type": "vless",
+            "server": "104.20.176.221",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 3",
+            "type": "vless",
+            "server": "104.20.62.182",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 4",
+            "type": "vless",
+            "server": "104.20.220.187",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 5",
+            "type": "vless",
+            "server": "104.24.163.179",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 6",
+            "type": "vless",
+            "server": "104.21.95.79",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 7",
+            "type": "vless",
+            "server": "104.21.81.166",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 8",
+            "type": "vless",
+            "server": "104.24.47.66",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 9",
+            "type": "vless",
+            "server": "104.24.159.162",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 10",
+            "type": "vless",
+            "server": "104.20.151.102",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 11",
+            "type": "vless",
+            "server": "104.25.96.174",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 12",
+            "type": "vless",
+            "server": "104.24.244.232",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 13",
+            "type": "vless",
+            "server": "104.21.103.230",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 14",
+            "type": "vless",
+            "server": "104.24.164.48",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 15",
+            "type": "vless",
+            "server": "104.24.66.160",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 16",
+            "type": "vless",
+            "server": "104.24.86.121",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 17",
+            "type": "vless",
+            "server": "104.21.99.49",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 18",
+            "type": "vless",
+            "server": "104.24.165.37",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 19",
+            "type": "vless",
+            "server": "104.20.76.82",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 20",
+            "type": "vless",
+            "server": "104.24.71.50",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 21",
+            "type": "vless",
+            "server": "104.20.75.44",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 22",
+            "type": "vless",
+            "server": "104.21.83.241",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 23",
+            "type": "vless",
+            "server": "104.24.175.152",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 24",
+            "type": "vless",
+            "server": "104.24.181.206",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 25",
+            "type": "vless",
+            "server": "104.24.177.35",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 26",
+            "type": "vless",
+            "server": "104.20.243.194",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 28",
+            "type": "vless",
+            "server": "104.24.2.17",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 29",
+            "type": "vless",
+            "server": "104.21.94.157",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        },
+        {
+            "tag": "KayH GNG جدید 30",
+            "type": "vless",
+            "server": "104.24.80.218",
+            "server_port": 443,
+            "uuid": "4e4f533c-5baf-4d3a-ad15-743ff0f99443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPn.KAYhGNG.XYz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/LuVH4bL-QMLLXa-J",
+                "headers": {
+                    "Host": "vPn.KAYhGNG.XYz"
+                }
+            }
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "geoip": {
+            "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geoip": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geosite": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "other"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "ads"
+                ],
+                "outbound": "block"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ]
+            }
+        ]
+    }
+}
