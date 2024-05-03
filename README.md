@@ -4,6 +4,10 @@
 
 https://raw.githubusercontent.com/kayhgng/v2raykayh/main/v2raykayh
 
+کالکتور ما به صورت دستی ویرایش میشه امّا درصورتی که کانفیگ هایی که کالکتور ما جمع کرده باشه کانفیگ های به نسبت خوبی باشه که جایگزین نشه چیزی بجاش آپدیت نمیشود.
+
+https://raw.githubusercontent.com/kayhgng/v2raykayh/main/KayHGNGCollector
+
 رو بعنوان subscribtion grou در کلاینت وارد میکنید و آپدیتش میکنید و بهشون متصل میشید.
 
 
