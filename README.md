@@ -6,9 +6,22 @@ https://raw.githubusercontent.com/kayhgng/v2raykayh/main/v2raykayh
 
 کالکتور ما به صورت دستی ویرایش میشه امّا درصورتی که کانفیگ هایی که کالکتور ما جمع کرده باشه کانفیگ های به نسبت خوبی باشه که جایگزین نشه چیزی بجاش آپدیت نمیشود.
 
+نسخه اول:
+
 https://raw.githubusercontent.com/kayhgng/v2raykayh/main/KayHGNGCollector
 
+نسخه دوم :
+
+مخصوص هیدیفای :
+
+https://raw.githubusercontent.com/kayhgng/v2raykayh/main/kayhgngcollectorv3signbox_ss
+
+برای کلاینت های دیگر :
+
+https://raw.githubusercontent.com/kayhgng/v2raykayh/main/kayhgngcollectorv3v2ray_ss
+
 رو بعنوان subscribtion grou در کلاینت وارد میکنید و آپدیتش میکنید و بهشون متصل میشید.
+
 
 
 ![Windows](https://img.shields.io/badge/Windows-0078D4.svg?style=for-the-badge&logo=Windows&logoColor=white)
