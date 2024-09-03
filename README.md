@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/kayhgng/v2raykayh/main/v2raykayh
 
 https://raw.githubusercontent.com/kayhgng/v2raykayh/main/KayHGNGCollector
 
-نسخه دوم :
+نسخه سوم :
 
 مخصوص هیدیفای :
 
