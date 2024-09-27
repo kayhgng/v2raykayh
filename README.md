@@ -1,4 +1,7 @@
 # v2raykayh
+## لینک دونیت ارز دیجیتال TON:
+
+UQBNCEBZZEdUkchBb3wGYzkZWyclSdmLPE_yQw1XWCVjGeS5
 
 کانفیگ های ویتوری ساخت دست Ali KAY H از KayH GNG.
 
