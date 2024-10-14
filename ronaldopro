@@ -1,3 +1,9 @@
+//profile-title: base64:U2hhcmF5ZXQgS2hhcyAtIEtheUggR05HIPCfmpM=
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://github.com/kayhgng
+//profile-web-page-url: https://github.com/kayhgng
+
 {
   "log": {
     "level": "warn",
