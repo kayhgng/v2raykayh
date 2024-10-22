@@ -914,10 +914,10 @@
   ],
   "route": {
     "geoip": {
-      "path": "geo-assets/sagernet-sing-geoip-geoip.db"
+      "path": "geo-assets//sagernet-sing-geoip-geoip.db"
     },
     "geosite": {
-      "path": "geo-assets/sagernet-sing-geosite-geosite.db"
+      "path": "geo-assets//sagernet-sing-geosite-geosite.db"
     },
     "rules": [
       {
